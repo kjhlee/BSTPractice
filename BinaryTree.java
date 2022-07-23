@@ -9,6 +9,7 @@ public class BinaryTree {
         Node right;
 
         public Node(int key, String name){
+            this.key = key;
             this.name = name;
         }
 
